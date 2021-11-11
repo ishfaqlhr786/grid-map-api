@@ -4,13 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "font-awesome/css/font-awesome.min.css";
-import { Home } from "./Home";
-import { Home1 } from "./Home1";
+
 import { Home2 } from "./Home2";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home1 />
+    <Home2 />
   </React.StrictMode>,
   document.getElementById("root")
 );

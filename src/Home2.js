@@ -37,14 +37,10 @@ export const Home2 = () => {
     <>
       <div id="cover">
         <div className="container">
-          {users.map((el) => {
+          {users?.map((el) => {
             return (
-              <div className="item">
-                <img src={el.image} alt="ff" />
-                <div className="content">
-                  <span>{el.category}</span>
-                  <p>{el.price}</p>
-                </div>
+              <div className="item" key={el.id}>
+                <img src={el.image} alt="hh" />
               </div>
             );
           })}
